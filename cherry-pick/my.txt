@@ -1,2 +1,5 @@
 c1
+<<<<<<< HEAD
 c2
+=======
+>>>>>>> 8b0b964 (study cherry-pick: add c1)
