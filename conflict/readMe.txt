@@ -1,2 +1,6 @@
 此文件只有两行时，从main分支上新建新分支study_conflict
 在study_conflict分支上，对此文件新增一行并提交；再删除刚新增的这一行并提交。
+首先纠正一下，上面的分支名。由study_conflict改为study_conflict01
+接着，从main分支上新建新分支study_conflict00，在study_conflict00上新增内容（第3行开始就是新增的内容），并提交。
+最后，切换到study_conflict01分支，并merge分支study_conflict00.此时会合并冲突。
+原因是：在找父级节点时，两分支都有对此文件修改的提交记录，虽然你改了又删除了。因为改了又删除就有可能是对新增这一行的否定，而另一分支新增一行是对这一行的坚持。这就是冲突。
