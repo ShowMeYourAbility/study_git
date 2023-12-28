@@ -1,0 +1,2 @@
+此文件只有两行时，从main分支上新建新分支study_conflict
+在study_conflict分支上，对此文件新增一行并提交；再删除刚新增的这一行并提交。
