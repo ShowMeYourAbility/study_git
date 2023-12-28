@@ -9,3 +9,4 @@ same content
 =======
 different line: this is more
 >>>>>>> study_conflict00
+only one line
