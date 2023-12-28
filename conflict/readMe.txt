@@ -5,3 +5,7 @@
 最后，切换到study_conflict01分支，并merge分支study_conflict00.此时会合并冲突。
 原因是：在找父级节点时，两分支都有对此文件修改的提交记录，虽然你改了又删除了。因为改了又删除就有可能是对新增这一行的否定，而另一分支新增一行是对这一行的坚持。这就是冲突。
 same content
+<<<<<<< HEAD
+=======
+different line: this is more
+>>>>>>> study_conflict00
