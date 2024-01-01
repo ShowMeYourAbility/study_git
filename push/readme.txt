@@ -5,3 +5,7 @@ study_push02在初始状态下,hello.txt文件中新增一行c02,并执行git pu
 study_push03在初始状态下新增一个文件hello03.txt，文件内容任意如c1，并执行git push -u origin study_push03
 study_push04在初始状态下新增一个文件hello04.txt，文件内容任意如c1，并执行git push -u origin study_push04:study_push03。看下这种场景下的 push 是什么效果？
 将main分支同时push到gitee上
+
+最佳实践：
+git push -u 只用于本地与远程同名分支的场景，其他稀奇古怪的对应关系不要考虑
+
