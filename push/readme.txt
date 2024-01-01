@@ -11,3 +11,4 @@ git push -u 只用于本地与远程同名分支的场景，其他稀奇古怪�
 将main分支同时push到gitee和github上是可行的
 
 如果我先后执行了git push -u origin main 和 git push -u origin_gitee main后，后续git push 是以哪个为准呢？
+经试验：后面关联的同名远程分支会覆盖之前的同名名远程关联
