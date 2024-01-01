@@ -1,0 +1,5 @@
+初始状态为：main分支只有一个hello.txt文件，文件内容为c1
+study_checkout00用于指定当前初始状态的节点
+study_checkout01在初始状态下新增一行c2
+在study_checkout01分支上执行git checkout -b study_checkout02,此时新分支上的hello.txt文件应该是有c2行的
+在study_checkout01分支上执行git checkout -b study_checkout03,此时新分支上的hello.txt文件应该只有c1行
